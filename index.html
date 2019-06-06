@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+<div class="container-fluid">
+    <!-- Navigation -->
+  <div class="row navigation">
+    <div class="logo">
+      <img src="https://genesisafricanrestaurant.com/wp-content/uploads/2017/10/logo.jpg" alt="" />
+    </div>
+   
+  <!-- Mini Cart Starts Here -->
+    <div class="mini-cart">
+      <button class="btn btn-default mini-cart-button"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+    </div>
+    <div class="mini-cart-container">
+      <div class="mini-cart-items">
+        <ul>
+        </ul>
+        <div class="mini-cart-totals">
+          <div id="total-price">
+            <p>Total Price</p>
+            <span> $0 </span>
+          </div>
+          <div id="total-items">
+            <p>Total Items</p>
+            <span> 0 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Mini Cart Ends Here -->  
+  
+  </div>
+  
+    <!-- Product Grid -->
+    <div class="row product-grid">
+      
+      <!-- START The Product Item 1-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://travel.jumia.com/blog/wp-content/uploads/2015/10/IMG_01092015_151516.png" alt="" />
+        <h1 class="product-title">Brochette </h1>
+        <h3 class="product-price">$12.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Brochette" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Brochette" product="Brochette" sel="12.99"><span class="glyphicon glyphicon-ok"></span> Add to Cart</button>
+        </div>
+      <!-- END!! The Product Item -->
+      
+      <!-- START The Product Item 2-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img  class="images" style="height:250px;" src="http://travel2unlimited.com/wp-content/uploads/2016/04/1-26.jpg" alt="" />
+        <h1 class="product-title">French Fries</h1>
+        <h3 class="prodcut-price">$12.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_French_Fries" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+
+        <button class="btn btn-success add-to-cart-button" rel="French_Fries" product="French_Fries" sel="12.99"><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+      <!-- START The Product Item 3-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://www.africanfoods.co.uk/images/rice-and-chicken-the-African-way.jpg" alt="" />
+        <h1 class="product-title">Tchep Djen </h1>
+        <h3 class="prodcut-price">$18.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Tchep_Djen" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Tchep_Djen" product="Tchep_DJen" sel="18.99" ><span ></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+
+      <!-- START The Product Item 4-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://media-cdn.tripadvisor.com/media/photo-s/05/de/46/25/butterfly-hotel-sohar.jpg" alt="" />
+        <h1 class="product-title">Fish </h1>
+        <h3 class="prodcut-price">$14.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Fish" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Fish" product="Fish" sel="14.99" ><span ></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+
+      <!-- START The Product Item 5-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://www.maggi.fr/sites/default/files/styles/image_desktop/public/images-recettes/Salade%20vermicelles%20riz%20poulet%20carotte%20gingembre%20764590.JPG?itok=0NLQZQJO&timestamp=1539942064" alt="" />
+        <h1 class="product-title">Vermicelle </h1>
+        <h3 class="prodcut-price">$12.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Vermicelle" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Vermicelle" product="Vermicelle" sel="12.99" ><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+
+      <!-- START The Product Item 6-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://image.shutterstock.com/image-photo/this-food-photography-african-cuisine-260nw-1176198166.jpg" alt="" />
+        <h1 class="product-title">Plantains </h1>
+        <h3 class="prodcut-price">$12.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Plantains" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Plantains" product="Plantains" sel="24.99" ><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+      <div class="succes-message">Item Succesfully Added to Cart</div>
+    </div>
+
+      <!-- START The Product Item 7-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://lailasnews.com/wp-content/uploads/2019/01/Naija-Jollof-Brings-Authentic-African-Food-to-Canadian-Food-courts-lailasnews-1-411x410.png" alt="" />
+        <h1 class="product-title">Chrysin </h1>
+        <h3 class="prodcut-price">$24.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_chrysin_500_mg" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="chrysin_500_mg" product="Chrysin 500 mg" sel="24.99" ><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+      <div class="succes-message">Item Succesfully Added to Cart</div>
+    </div>
+
+      <!-- START The Product Item 8-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://myphotographer.files.wordpress.com/2010/05/foodphotography.jpg" alt="" />
+        <h1 class="product-title">Sea Food </h1>
+        <h3 class="prodcut-price">$24.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Sea_Food" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Sea_Food" product="Sea_Food" sel="24.99" ><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+      <!-- START The Product Item 9-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://pbs.twimg.com/media/DoHMpm0WkAA4zvp.jpg" alt="" />
+        <h1 class="product-title">Rice </h1>
+        <h3 class="prodcut-price">$14.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Rice" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Rice" product="Rice" sel="14.99" ><span ></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+
+      <!-- START The Product Item 10-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://scontent-lga3-1.cdninstagram.com/vp/b6c12d7f56ae0c336ec51bf164e0917c/5D854ADD/t51.2885-15/e35/49906943_2697508856956389_1843396885098164444_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com" alt="" />
+        <h1 class="product-title">Salad </h1>
+        <h3 class="prodcut-price">$18.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Salad" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Salad" product="Salad" sel="18.99" ><span ></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+
+      <!-- START The Product Item 11-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://scontent-atl3-1.cdninstagram.com/vp/c250369fe80a247cd6dcdd578a04ca13/5D5630C3/t51.2885-15/e35/50014843_1301266820011477_4071881602864597005_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com" alt="" />
+        <h1 class="product-title">Fufu </h1>
+        <h3 class="prodcut-price">$14.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Fufu" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Fufu" product="Fufu" sel="14.99" ><span ></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+      <!-- START The Product Item 12-->
+      <div class="col-md-4 col-sm-4 grid-item">
+        <img class="images" src="https://indiatribune.com/wp-content/uploads/2017/12/samosa.jpg" alt="" />
+        <h1 class="product-title">Pastelles </h1>
+        <h3 class="prodcut-price">$12.99</h3>
+        <div class="quantity-input">
+          <input class="minus btn" type="button" value="-">
+          <input id="text_Pastelles" value="1" class="input-text qty text" size="4"/>
+          <input class="plus btn" type="button" value="+">
+        </div>
+        <button class="btn btn-success add-to-cart-button" rel="Pastelles" product="Pastelles" sel="12.99" ><span></span> Add to Cart</button>
+      </div>
+      <!-- END!! The Product Item -->
+
+</div>
+ <!-- <canvas id="canvas" width="450" height="450"> -->
+</canvas>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
